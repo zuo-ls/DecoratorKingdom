@@ -6,7 +6,7 @@ Tools for pretty plots.
 ```
 from color_decorator import set_palette
 
-@set_palette('darkblue',2)
+@set_palette('darkblue',2) # 
 def plot_dist(data1,data2):
     sns.kdeplot(data1, fill=True)
     sns.kdeplot(data2, fill=True)
