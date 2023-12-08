@@ -2,4 +2,4 @@
 
 Tools for pretty plots.
 
-## Set colo
+## Set pala
