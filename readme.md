@@ -1,3 +1,3 @@
 # PlotPark
 
-Tools for pretty plots
+Tools for pretty plots.
