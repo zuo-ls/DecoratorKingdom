@@ -2,4 +2,4 @@
 
 Tools for pretty plots.
 
-1. 
+1
