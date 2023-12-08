@@ -2,4 +2,4 @@
 
 Tools for pretty plots.
 
-## Set pa
+## Set pal
