@@ -1,9 +1,9 @@
-# PlotPark
-
+# DecoratorKingdom
+Adding features using decorators.
+## 1 Plot decorator
 Tools for pretty plots.
-
-## Set palette for a plot method via a decorator
-```
+### 1.1 Set palette for a plot method via a decorator
+```python
 from color_decorator import set_palette
 
 @set_palette('darkblue',2) # style is 'darkblue', number of color is 2
