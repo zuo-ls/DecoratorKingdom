@@ -17,3 +17,6 @@ data1 = np.random.normal(0, 1, 1000)
 data2 = np.random.normal(1, 1, 1000)
 plot_dist(data1,data2)
 ```
+## 2 Basic decorator
+- classproperty: a decorator for classmethod + property
+- superclassmethod: a decorator for class methods with super() behavior.
