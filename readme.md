@@ -4,7 +4,7 @@ Adding features using decorators.
 Tools for pretty plots.
 ### 1.1 Set palette for a plot method via a decorator
 ```python
-from color_decorator import set_palette
+from dk.plot import set_palette
 
 @set_palette('darkblue',2) # style is 'darkblue', number of color is 2
 def plot_dist(data1,data2):
