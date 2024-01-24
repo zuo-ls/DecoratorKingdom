@@ -20,3 +20,5 @@ plot_dist(data1,data2)
 ## 2 Basic decorator
 - classproperty: a decorator for classmethod + property
 - superclassmethod: a decorator for class methods with super() behavior.
+
+## 3 Version controller
