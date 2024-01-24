@@ -39,5 +39,5 @@ def version_2():
 
 
 if __name__ == '__main__':
-    VersionController.get('v1')()
-    VersionController.get('v2')()
+    VersionController().get('v1')()
+    VersionController().get('v2')()
