@@ -22,3 +22,22 @@ plot_dist(data1,data2)
 - superclassmethod: a decorator for class methods with super() behavior.
 
 ## 3 Version controller
+decorate your own function with version controller, such that you could switch versions using strings.
+```python
+@VersionController.register('v1')
+def version_1():
+    """This is version 1"""
+    print('This is version 1')
+
+@VersionController.register('v2')
+def version_2():
+    """This is version 2"""
+    print('This is version 2')
+
+
+if __name__ == '__main__':
+    my_version = 'v1'
+
+    func = VersionController.get(my_version)
+    func()
+```
