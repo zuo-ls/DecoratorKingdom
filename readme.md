@@ -41,6 +41,6 @@ def version_2():
 if __name__ == '__main__':
     my_version = 'v1'
 
-    func = MyVersionController.get(my_version)
+    func = MyVersionController().get(my_version)
     func()
 ```
