@@ -18,8 +18,8 @@ data2 = np.random.normal(1, 1, 1000)
 plot_dist(data1,data2)
 ```
 ## 2 Basic decorator
-- classproperty: a decorator for classmethod + property
-- superclassmethod: a decorator for class methods with super() behavior.
+- `@classproperty`: a decorator for classmethod + property
+- `@superclassmethod`: a decorator for class methods with super() behavior.
 
 ## 3 Version controller
 decorate your own function with version controller, such that you could switch versions using strings.
