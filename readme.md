@@ -44,3 +44,5 @@ if __name__ == '__main__':
     func = MyVersionController().get(my_version)
     func()
 ```
+## 4 Others
+- `@timeit`: a decorator for timing the execution time of a function.
